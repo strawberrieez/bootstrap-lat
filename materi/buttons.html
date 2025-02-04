@@ -1,0 +1,58 @@
+<!-- buttons -->
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Bootstrap 5 - Buttons</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <!-- Link Font Awesome untuk ikon (optional) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center">Contoh Button di Bootstrap 5</h1>
+
+      <!-- Button Biasa -->
+      <button type="button" class="btn btn-primary">Tombol Utama</button>
+      <button type="button" class="btn btn-secondary">Tombol Sekunder</button>
+
+      <!-- Button Berwarna Lain -->
+      <button type="button" class="btn btn-success">Sukses</button>
+      <button type="button" class="btn btn-danger">Batal</button>
+      <button type="button" class="btn btn-warning">Peringatan</button>
+      <button type="button" class="btn btn-info">Informasi</button>
+      <button type="button" class="btn btn-light">Terang</button>
+      <button type="button" class="btn btn-dark">Gelap</button>
+
+      <!-- Button dengan Ukuran Berbeda -->
+      <div class="mt-3">
+        <button type="button" class="btn btn-primary btn-lg">
+          Tombol Besar
+        </button>
+        <button type="button" class="btn btn-primary btn-sm">
+          Tombol Kecil
+        </button>
+      </div>
+
+      <!-- Button Disabled -->
+      <div class="mt-3">
+        <button type="button" class="btn btn-secondary" disabled>
+          Tombol Tidak Aktif
+        </button>
+      </div>
+
+      <!-- Button dengan Ikon -->
+      <div class="mt-3">
+        <button type="button" class="btn btn-success">
+          <i class="fa fa-check"></i> Selesai
+        </button>
+      </div>
+    </div>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
