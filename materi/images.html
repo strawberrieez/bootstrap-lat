@@ -1,42 +1,40 @@
-<!-- images -->
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap Images</title>
+    <title>Alo aku Sekar :3</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
   </head>
-  <body class="p-5">
-    <h1 class="text-center text-primary">Gambar di Bootstrap</h1>
+  <body>
+    <!-- gambar responsive -->
+    <img src="images/example.jpg" class="img-fluid" alt="Responsive image" />
 
-    <h3>📌 Gambar Responsif</h3>
-    <img src="images/test.jpg" class="img-fluid" alt="Gambar Responsif" />
+    <!-- efek border buat thumbnail -->
+    <img src="images/example.jpg" class="img-thumbnail" alt="Thumbnail image" />
 
-    <h3>🎯 Gambar Rounded</h3>
-    <img src="images/test.jpg" class="img-fluid rounded" alt="Gambar Rounded" />
+    <!-- pinggirnya rounded -->
+    <img src="images/example.jpg" class="rounded" alt="Rounded image" />
 
-    <h3>🔵 Gambar Bulat</h3>
-    <img
-      src="images/test.jpg"
-      class="img-fluid rounded-circle"
-      alt="Gambar Bulat"
-    />
+    <!-- bentuk circle -->
+    <img src="images/example.jpg" class="rounded-circle" alt="Circle image" />
 
-    <h3>🖼 Gambar Thumbnail</h3>
-    <img src="images/test.jpg" class="img-thumbnail" alt="Gambar Thumbnail" />
+    <!-- mengapung -->
+    <img src="images/example.jpg" class="float-start" alt="Float left" />
+    <img src="images/example.jpg" class="float-end" alt="Float right" />
+    <img src="images/example.jpg" class="mx-auto d-block" alt="Centered image"/>
 
-    <h3>📍 Gambar dengan Posisi</h3>
-    <img
-      src="images/test.jpg"
-      class="img-fluid float-start"
-      alt="Gambar Kiri"
-    />
-    <img src="images/test.jpg" class="img-fluid float-end" alt="Gambar Kanan" />
-    <img
-      src="images/test.jpg"
-      class="img-fluid mx-auto d-block"
-      alt="Gambar Tengah"
-    />
+    <!-- berbentuk row column dan responsive -->
+    <div class="row">
+      <div class="col-md-4">
+        <img src="images/example1.jpg" class="img-fluid" alt="Image 1" />
+      </div>
+      <div class="col-md-4">
+        <img src="images/example2.jpg" class="img-fluid" alt="Image 2" />
+      </div>
+      <div class="col-md-4">
+        <img src="images/example3.jpg" class="img-fluid" alt="Image 3" />
+      </div>
+    </div>
   </body>
 </html>
